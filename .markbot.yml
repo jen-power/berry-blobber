@@ -1,4 +1,5 @@
-repo: 'berry-blobber'
+repo: "berry-blobber"
+canvasCourse: javascript
 
 naming: true
 restrictFileTypes: true
@@ -10,24 +11,23 @@ git:
   allSynced: true
 
 html:
-  - path: 'index.html'
+  - path: "index.html"
     locked: true
 
 js:
-  - path: 'js/main.js'
+  - path: "js/main.js"
     valid: true
     bestPractices: true
     search:
       - 'var writeBerries \= function \('
-      - 'forEach'
+      - "forEach"
       - 'document.write\('
-      - '\+'
-      - '<h1>'
-      - '<h2>'
-      - '<dl>'
-      - '<dt>'
-      - '<dd>'
+      - "<h1>"
+      - "<h2>"
+      - "<dl>"
+      - "<dt>"
+      - "<dd>"
 
 screenshots:
-  - path: 'index.html'
+  - path: "index.html"
     sizes: [320]
